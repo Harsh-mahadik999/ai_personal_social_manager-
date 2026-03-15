@@ -5,7 +5,7 @@ const GOOGLE_SCOPES = [
 
 const LINKEDIN_SCOPES = ["r_liteprofile", "r_emailaddress", "w_member_social"].join(" ");
 
-const LINKEDIN_CLIENT_ID = "78w2eufsqzp7mf";
+const LINKEDIN_CLIENT_ID = "LINKEDIN_CLIENT_ID_PLACEHOLDER";
 const hasChromeIdentity = typeof chrome !== "undefined" && chrome.identity;
 const REDIRECT_URL = hasChromeIdentity
   ? chrome.identity.getRedirectURL()
