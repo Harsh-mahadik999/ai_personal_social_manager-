@@ -83,7 +83,7 @@ The extension:
 ---
 
 ```
-You are a senior full-stack developer. Build a complete Chrome Extension project called 
+
 "ProPost Assistant" — a Professional Post Assistant Maker.
 
 === PROJECT GOAL ===
