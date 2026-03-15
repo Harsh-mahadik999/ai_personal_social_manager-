@@ -80,14 +80,10 @@ The extension:
 
 ---
 
-## 🤖 VS Code Copilot Builder Prompt
-
-> **Copy the entire block below and paste it into GitHub Copilot Chat (`Ctrl+Shift+I`) or as a new Copilot Workspace prompt. It will scaffold the entire project.**
-
 ---
 
 ```
-You are a senior full-stack developer. Build a complete Chrome Extension project called 
+
 "ProPost Assistant" — a Professional Post Assistant Maker.
 
 === PROJECT GOAL ===
