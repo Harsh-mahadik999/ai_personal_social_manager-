@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1f2937;
+  background:
+    radial-gradient(circle at 10% 0%, rgba(10, 102, 194, 0.18), transparent 30%),
+    radial-gradient(circle at 100% 100%, rgba(0, 160, 220, 0.14), transparent 32%),
+    #edf2f7;
+}
+
+body {
+  width: 400px;
+  min-height: 580px;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  background:
+    radial-gradient(circle at 90% 10%, rgba(0, 160, 220, 0.2), transparent 32%),
+    radial-gradient(circle at 10% 95%, rgba(10, 102, 194, 0.18), transparent 28%),
+    linear-gradient(155deg, #f8fafc 0%, #eef4fb 55%, #e8f1fb 100%);
+}
+
+#root {
+  width: 100%;
+  min-height: 580px;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 28px rgba(10, 102, 194, 0.08);
+}
